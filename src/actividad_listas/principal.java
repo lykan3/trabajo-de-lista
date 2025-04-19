@@ -4,6 +4,7 @@
  */
 package actividad_listas;
 import FORMULARIO.fmrusuario;
+
 /**
  *
  * @author LYKAN
@@ -14,7 +15,7 @@ public class principal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        fmrusuario n = fmrusuario ();
+        fmrusuario n = new fmrusuario();
         n.setVisible(true);
         
         
